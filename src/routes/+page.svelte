@@ -76,10 +76,12 @@
 							Nous passons environ 100 000 heures de notre vie à travailler. Confucius nous invite à
 							choisir un métier qui nous plaît, mais je pense qu'il est encore plus essentiel de se
 							sentir utile. C'est pourquoi je m'efforce de concilier ma passion pour l'informatique
-							avec mes valeurs. Je me forme à l'écoconception (par exemple, en réalisant un rapport
-							sur la consommation des logiciels dans la catégorie "Mes écrits"), j'effectue des
-							stages dans des entreprises engagées (comme Treebal), et je participe à la Convention
-							de l'Université en Transition pour transformer mon université.
+							avec mes valeurs. Je souhaite travailler pour des organisations à impact, engagée, qui
+							portent une vision du numérique responsable. Pour moi, le numérique est souvent
+							utilisé de manière néfaste, mais est aussi nécessaire dans un monde plus durable. Je
+							cherche donc à contribuer à des projets d'informatique qui sont utiles, accessibles,
+							qui consomment le minimum d'énergie et de ressources, qui respectent la vie privée des
+							utilisateurs et qui contribuent à les rendre plus critiques et plus engagés.
 						</p>
 					</div>
 				</div>
@@ -92,6 +94,24 @@
 					<div class="join join-vertical w-full">
 						<div class="collapse join-item collapse-arrow border border-base-300">
 							<input type="radio" name="my-accordion-4" checked={true} />
+							<div class="collapse-title text-xl font-medium">Palm'appli</div>
+							<div class="collapse-content">
+								<p>
+									Une application libre de vie étudiante (emploi du temps, emails, actus...), codée
+									par le BDE de l'ISTIC, la Palme. Je suis responsable de ce projet et j'ai
+									développé l'essentiel de l'application.
+								</p>
+								<br />
+								<a
+									class="btn"
+									href="https://play.google.com/store/apps/details?id=fr.bdepalme.palm_appli&hl=fr"
+								>
+									Télécharger l'appli (Play Store)
+								</a>
+							</div>
+						</div>
+						<div class="collapse join-item collapse-arrow border border-base-300">
+							<input type="radio" name="my-accordion-4" />
 							<div class="collapse-title text-xl font-medium">Clone de Slay The Spire</div>
 							<div class="collapse-content">
 								<p>
@@ -215,12 +235,7 @@
 					<time class="font-mono italic">2022</time>
 					<div class="text-lg font-black">Baccalauréat</div>
 					J'ai obtenu mon bac général mention très bien, section euro, avec les spécialités Mathématiques,
-					Sciences de l'ingénieur et Physique-Chimie.
-					<div class="text-lg font-black">Élections étudiantes</div>
-					Je suis élu au Conseil de la Formation et de la Vie Étudiante au suffrage direct pour représenter
-					les étudiants et étudiantes de mon université. Je m'engage particulièrement dans les commissions
-					liées à la vie étudiante et associative, où je défends notamment les demandes de subventions
-					des associations.
+					Sciences de l'ingénieur et Physique-Chimie, et l'option Maths expertes.
 				</div>
 				<hr />
 			</li>
@@ -246,10 +261,16 @@
 					J'ai débuté mes études à l'ISTIC, Université de Rennes, en licence d'informatique et électronique.
 					J'ai terminé l'année avec une moyenne de 18,19, ce qui m'a permis d'être major de ma promotion
 					💪.
+					<div class="text-lg font-black">Élections étudiantes</div>
+					Je suis élu au Conseil de la Formation et de la Vie Étudiante au suffrage direct pour représenter
+					les étudiants et étudiantes de mon université. Je m'engage particulièrement dans les commissions
+					liées à la vie étudiante et associative, où je défends notamment les demandes de subventions
+					des associations.
 					<div class="text-lg font-black">Ambassadeurs des Transitions</div>
-					J'ai obtenu le poste d'Ambassadeur des Transitions, pour lequel je suis rémunéré par l'Université
-					de Rennes. Ma mission consiste à sensibiliser les étudiants et étudiantes aux questions environnementales
-					et sociales. J'organise des conférences, des débats, et soutiens des associations.
+					À la rentrée 2023, j'obtient le poste d'Ambassadeur des Transitions, pour lequel je suis rémunéré
+					par l'Université de Rennes. Ma mission consiste à sensibiliser les étudiants et étudiantes
+					aux questions environnementales et sociales. J'organise des conférences, des débats, et soutiens
+					des associations.
 					<div class="text-lg font-black">Stage à l'étude SEGUR</div>
 					<span>J'effectue un stage à </span>
 					<a class="underline" href="https://www.segur.eu/">l'étude SEGUR</a>, et je développe un
@@ -296,6 +317,9 @@
 					<span>J'effectue un stage chez </span>
 					<a class="underline" href="https://www.treebal.green/">Treebal</a>, qui conçoit une
 					messagerie alternative dans le genre de whatsapp, écoconçue, sobre et souveraine.
+					<div class="text-lg font-black">Break The Code</div>
+					Avec mes coéquipiers Nathan et Rémi, nous décrochons la première place lors de la compétition
+					d'algorithmie Break The Code, organisée par Sopra Steria à Rennes.
 				</div>
 				<hr />
 			</li>
@@ -305,25 +329,28 @@
 
 <style>
 	#mon-bg {
-		background: rgb(255, 255, 255);
+		background: rgb(110, 235, 251);
 		background: -moz-linear-gradient(
 			54deg,
+			rgba(110, 235, 251, 1) 0%,
+			rgba(255, 255, 255, 1) 23%,
 			rgba(255, 255, 255, 1) 64%,
-			rgba(255, 200, 253, 1) 93%,
-			rgba(178, 242, 255, 1) 100%
+			rgba(122, 255, 185, 1) 100%
 		);
 		background: -webkit-linear-gradient(
 			54deg,
+			rgba(110, 235, 251, 1) 0%,
+			rgba(255, 255, 255, 1) 23%,
 			rgba(255, 255, 255, 1) 64%,
-			rgba(255, 200, 253, 1) 93%,
-			rgba(178, 242, 255, 1) 100%
+			rgba(122, 255, 185, 1) 100%
 		);
 		background: linear-gradient(
 			54deg,
+			rgba(110, 235, 251, 1) 0%,
+			rgba(255, 255, 255, 1) 23%,
 			rgba(255, 255, 255, 1) 64%,
-			rgba(255, 200, 253, 1) 93%,
-			rgba(178, 242, 255, 1) 100%
+			rgba(122, 255, 185, 1) 100%
 		);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b2f2ff",GradientType=1);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6eebfb",endColorstr="#7affb9",GradientType=1);
 	}
 </style>
