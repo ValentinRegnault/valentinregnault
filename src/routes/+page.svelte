@@ -2,6 +2,15 @@
 	import PP from '../assets/PP.png';
 	import TpRech from '../assets/grand-plongeon-dans-la-vectorisation-de-mots.pdf';
 	import consoEner from '../assets/consommation énergétique du logiciel.pdf';
+	import graphisme1 from '../assets/graphisme1.png';
+	import graphisme2 from '../assets/graphisme2.png';
+	import graphisme3 from '../assets/graphisme3.png';
+	import graphisme4 from '../assets/graphisme4.png';
+	import graphisme5 from '../assets/graphisme5.png';
+	import graphisme6 from '../assets/graphisme6.png';
+	import graphisme7 from '../assets/graphisme7.png';
+	import graphisme8 from '../assets/graphisme8.png';
+	import graphisme9 from '../assets/graphisme9.png';
 
 	function getAge(dateString: string) {
 		var today = new Date();
@@ -15,7 +24,7 @@
 	}
 </script>
 
-<div id="mon-bg">
+<div id="mon-bg" class="min-h-[100vh]">
 	<div class="grid gap-3 p-[20px] md:p-[50px] lg:grid-cols-3 xl:p-[200px]">
 		<div class="grid-row-subgrid col-span-1 flex flex-col justify-between gap-3">
 			<div class="col-span-2 aspect-square overflow-hidden rounded-full border-2 bg-white/20">
@@ -92,24 +101,6 @@
 				<div class="card-body">
 					<h1 class="card-title">Mes projets</h1>
 					<div class="join join-vertical w-full">
-						<div class="collapse join-item collapse-arrow border border-base-300">
-							<input type="radio" name="my-accordion-4" checked={true} />
-							<div class="collapse-title text-xl font-medium">Palm'appli</div>
-							<div class="collapse-content">
-								<p>
-									Une application libre de vie étudiante (emploi du temps, emails, actus...), codée
-									par le BDE de l'ISTIC, la Palme. Je suis responsable de ce projet et j'ai
-									développé l'essentiel de l'application.
-								</p>
-								<br />
-								<a
-									class="btn"
-									href="https://play.google.com/store/apps/details?id=fr.bdepalme.palm_appli&hl=fr"
-								>
-									Télécharger l'appli (Play Store)
-								</a>
-							</div>
-						</div>
 						<div class="collapse join-item collapse-arrow border border-base-300">
 							<input type="radio" name="my-accordion-4" />
 							<div class="collapse-title text-xl font-medium">Clone de Slay The Spire</div>
@@ -324,6 +315,25 @@
 				<hr />
 			</li>
 		</ul>
+
+		<div class="border-ht2 card card-bordered bg-white/20 p-10 sm:col-span-3">
+			<h1 class="card-title">Graphisme</h1>
+			<p>
+				Passionné de graphisme, je réalise de nombreux visuels dans le cadre de mes activités
+				associatives. En voici quelques examples :
+			</p>
+			<div class="flex flex-row flex-wrap gap-5">
+				<img src={graphisme1} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme2} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme3} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme4} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme5} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme6} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme7} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme8} alt="" class="w-[400px] border-4 border-[black]" />
+				<img src={graphisme9} alt="" class="w-[400px] border-4 border-[black]" />
+			</div>
+		</div>
 	</div>
 </div>
 
